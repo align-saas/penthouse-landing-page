@@ -62,7 +62,7 @@ export default function Home() {
         <h2 className="text-3xl font-bold mb-8 text-blue-800">Lo que dicen nuestros clientes</h2>
         <div className="max-w-6xl mx-auto">
           <blockquote className="border-l-4 border-blue-900 pl-6 italic text-xl mb-8 text-blue-800">
-            Penthouse Visuals ha revolucionado la forma en que gestionamos datos, ahora puedo ver la información que me interesa de forma rapida y ordenada – Eurocell – 
+            Penthouse Visuals ha revolucionado la forma en que gestionamos datos, ahora puedo ver la información que me interesa de forma rápida y ordenada – Eurocell – 
           </blockquote>
         </div>
       </section>
@@ -86,9 +86,9 @@ export default function Home() {
       {/* CTA Repetido */}
       <section id="cta" className="bg-dark-purple py-16 text-center ">
         <h2 className="text-3xl font-bold text-white">¿Listo para optimizar tu empresa?</h2>
-        <p  className="text-xl text-white mt-4">Solicita un análisis gratuito y descubre cómo podemos ayudarte a mejorar tu eficiencia.</p>
+        <p  className="text-xl text-white mt-4">Solicita un análisis gratuito y descubre como podemos ayudarte a mejorar tu eficiencia.</p>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdbUZkPthnKViwihqmyG8a9mt5PEy9nSs5Mr2ZfX5VFo5heNg/viewform?usp=sf_link" className="mt-8 inline-block bg-royal-blue text-white font-semibold py-3 px-6 rounded-lg hover:bg-blue-700 transition">
-          Contactanos
+          Contáctanos
         </a>
       </section>
 
