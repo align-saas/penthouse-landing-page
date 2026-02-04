@@ -94,7 +94,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Carruseles de Experiencias */}
+      {/* Carruseles de Experiencias  run pipeline */}
       <section className="py-20 bg-gradient-to-b from-slate-950 via-dark-purple to-slate-900 text-white">
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-10">
