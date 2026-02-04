@@ -17,7 +17,7 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
 @layer utilities {
@@ -26,8 +26,46 @@ body {
   }
 }
 @font-face {
-  font-family: 'poppins-medium'; /* Asigna un nombre a tu fuente */
-  src: url('/font/poppins-medium.ttf') format('truetype'); /* URL a tu archivo .ttf */
-  font-weight: normal;
+  font-family: "Poppins"; /* Asigna un nombre a tu fuente */
+  src: url("/font/Poppins-Medium.ttf") format("truetype"); /* URL a tu archivo .ttf */
+  font-weight: 500;
   font-style: normal;
+}
+
+.marquee {
+  position: relative;
+  overflow: hidden;
+}
+
+.marquee__track {
+  display: flex;
+  gap: 1.5rem;
+  width: max-content;
+  animation: marquee-left 28s linear infinite;
+}
+
+.marquee--reverse .marquee__track {
+  animation-name: marquee-right;
+}
+
+.marquee:hover .marquee__track {
+  animation-play-state: paused;
+}
+
+@keyframes marquee-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes marquee-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
