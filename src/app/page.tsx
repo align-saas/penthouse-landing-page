@@ -9,12 +9,13 @@ export default function Home() {
 
       {/* Header */}
       <header className="bg-dark-purple text-white py-16 text-center">
-      <img src="/img/nmbBlanco.png" alt="Logo de Penthouse" className="mx-auto w-60 h-auto mb-4" />
+      <img src="/img/nmbBlanco.png" alt="Logo de Penthouse" className="mx-auto w-80 h-auto mb-4" />
         <h1 className="text-5xl font-bold">Somos un aliado estratégico para tus negocios</h1>
-        <p className="text-xl mt-4">Convertimos a las empresas latinoamericanas en 100% data-driven.</p>
+        <p className="text-xl mt-4">Minimizamos costos, maximizamos ventas, satisfacción y
+precisión.</p>
         <div className="text-center mt-8">
         <a href="https://docs.google.com/forms/d/1Z3BTMqA9k0zjc5kjqLkcucAt7H3W_6AzcxqAbvl7S7I/edit" className="inline-block bg-dark-purple text-white font-semibold py-3 px-6 rounded-lg mr-4 hover:bg-teal-600 transition">
-            Solicita una demo →
+            Conversemos →
         </a>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdbUZkPthnKViwihqmyG8a9mt5PEy9nSs5Mr2ZfX5VFo5heNg/viewform?usp=sf_link" className="inline-block bg-alice-blue text-black font-semibold py-3 px-6 rounded-lg hover:bg-teal-800 transition">
             Contáctanos →
@@ -22,9 +23,10 @@ export default function Home() {
 </div>
       </header>
 
+
       {/* Características Clave */}
       <section className="py-16 bg-gray-100 text-center">
-        <h2 className="text-3xl font-bold mb-8 text-blue-800">Primero entendemos el problema, luego diseñamos la solución</h2>
+        <h2 className="text-3xl font-bold mb-8 text-blue-800">Primero entendemos tu negocio, luego diseñamos la solución</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <div className="p-6 bg-white rounded-lg shadow-lg">
             <img src="/img/Azul.svg" alt="Análisis profundo" className="h-12 mx-auto mb-4 text-blue-800" />
@@ -43,12 +45,39 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+      {/* Penthouse Metrics */}
+      <section className="py-20 bg-gradient-to-b from-white via-blue-50 to-white">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="relative overflow-hidden rounded-[36px] shadow-xl ring-1 ring-[#3858E1]/15 transition-all duration-300 hover:shadow-2xl hover:ring-2 hover:ring-[#3858E1]/40 hover:-translate-y-1">
+            <div className="absolute inset-0 pointer-events-none bg-gradient-to-br from-[#3858E1]/60 via-[#3858E1]/45 to-[#3858E1]/30"></div>
+            <div className="absolute inset-0 pointer-events-none">
+              <div className="absolute -top-20 -right-20 w-80 h-80 rounded-full bg-white/25 blur-3xl"></div>
+              <div className="absolute -bottom-24 -left-24 w-96 h-96 rounded-full bg-[#3858E1]/45 blur-3xl"></div>
+            </div>
+            <div className="relative grid grid-cols-1 md:grid-cols-[1.1fr_0.9fr] items-center gap-8 px-8 py-12 md:px-12">
+              <div className="text-left">
+                <h2 className="text-3xl md:text-4xl font-bold text-white">
+                  EMPECEMOS POR MEDIR LO QUE NO PUEDES MEDIR.
+                </h2>
+                <p className="mt-6 text-2xl md:text-3xl font-semibold text-white/90 max-w-xl">
+                  LO QUE SE PUEDE MEDIR, SE PUEDE MEJORAR.
+                </p>
+                <p className="mt-8 text-sm md:text-base font-semibold text-white/80 uppercase tracking-[0.2em]">
+                  PARA ESO ESTA PENTHOUSE METRICS
+                </p>
+              </div>
+              <div className="flex md:justify-end justify-center">
+                  <img src="/img/1.jpeg" alt="Penthouse Metrics" className="w-full h-full object-contain rounded-[48px] rotate-[6deg]" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* Productos y Áreas de Impacto */}
-      <section className="py-20 bg-gradient-to-b from-white via-gray-50 to-white">
+      <section className="py-10 bg-gradient-to-b from-white via-gray-50 to-white">
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-blue-800">Productos y áreas de impacto</h2>
+            <h2 className="text-3xl font-bold text-blue-800">Áreas de Impacto</h2>
             <p className="text-lg text-blue-800 mt-3">
               Soluciones analíticas enfocadas en resultados, diseñadas para cada área clave del negocio.
             </p>
@@ -94,13 +123,14 @@ export default function Home() {
         </div>
       </section>
 
+
       {/* Carruseles de Experiencias  run pipeline */}
       <section className="py-20 bg-gradient-to-b from-slate-950 via-dark-purple to-slate-900 text-white">
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-10">
-            <h2 className="text-3xl font-bold">Implementaciones y experiencias</h2>
+            <h2 className="text-3xl font-bold">¿Cómo generamos valor?</h2>
             <p className="text-white/80 mt-3">
-              Casos reales y lo que nuestros clientes dicen sobre el impacto obtenido.
+              "Tenemos una cualidad escaza: entendemos tanto los negocios como los datos"
             </p>
           </div>
         </div>
@@ -198,7 +228,7 @@ export default function Home() {
         <div className="marquee marquee--reverse">
           <div className="marquee__track px-4">
             <div className="w-96 shrink-0 rounded-2xl bg-white/10 border border-white/10 p-6 shadow-xl">
-              <p className="text-sm text-white/70">Cliente Retail</p>
+              <p className="text-sm text-white/70">Objetivo Retail</p>
               <h3 className="text-lg font-semibold mt-2">“Ahora decidimos con datos”</h3>
               <p className="text-sm text-white/80 mt-3">
                 “La visibilidad de ventas e inventario nos permitió reducir pérdidas y
@@ -206,7 +236,7 @@ export default function Home() {
               </p>
             </div>
             <div className="w-96 shrink-0 rounded-2xl bg-white/10 border border-white/10 p-6 shadow-xl">
-              <p className="text-sm text-white/70">Cliente Finanzas</p>
+              <p className="text-sm text-white/70">Objetivo Finanzas</p>
               <h3 className="text-lg font-semibold mt-2">“Control total del cashflow”</h3>
               <p className="text-sm text-white/80 mt-3">
                 “Pasamos de reportes mensuales a decisiones diarias con proyecciones
@@ -214,14 +244,14 @@ export default function Home() {
               </p>
             </div>
             <div className="w-96 shrink-0 rounded-2xl bg-white/10 border border-white/10 p-6 shadow-xl">
-              <p className="text-sm text-white/70">Cliente Logística</p>
+              <p className="text-sm text-white/70">Objetivo Logística</p>
               <h3 className="text-lg font-semibold mt-2">“Menos quiebres, más servicio”</h3>
               <p className="text-sm text-white/80 mt-3">
                 “El modelo de demanda nos dio estabilidad y evitó roturas críticas.”
               </p>
             </div>
             <div className="w-96 shrink-0 rounded-2xl bg-white/10 border border-white/10 p-6 shadow-xl">
-              <p className="text-sm text-white/70">Cliente RRHH</p>
+              <p className="text-sm text-white/70">Objetivo RRHH</p>
               <h3 className="text-lg font-semibold mt-2">“Mejoramos la retención”</h3>
               <p className="text-sm text-white/80 mt-3">
                 “Identificamos equipos de riesgo y actuamos antes de perder talento.”
@@ -229,7 +259,7 @@ export default function Home() {
             </div>
 
             <div className="w-96 shrink-0 rounded-2xl bg-white/10 border border-white/10 p-6 shadow-xl">
-              <p className="text-sm text-white/70">Cliente Retail</p>
+              <p className="text-sm text-white/70">Objetivo Retail</p>
               <h3 className="text-lg font-semibold mt-2">“Ahora decidimos con datos”</h3>
               <p className="text-sm text-white/80 mt-3">
                 “La visibilidad de ventas e inventario nos permitió reducir pérdidas y
@@ -237,7 +267,7 @@ export default function Home() {
               </p>
             </div>
             <div className="w-96 shrink-0 rounded-2xl bg-white/10 border border-white/10 p-6 shadow-xl">
-              <p className="text-sm text-white/70">Cliente Finanzas</p>
+              <p className="text-sm text-white/70">Objetivo Finanzas</p>
               <h3 className="text-lg font-semibold mt-2">“Control total del cashflow”</h3>
               <p className="text-sm text-white/80 mt-3">
                 “Pasamos de reportes mensuales a decisiones diarias con proyecciones
@@ -245,14 +275,14 @@ export default function Home() {
               </p>
             </div>
             <div className="w-96 shrink-0 rounded-2xl bg-white/10 border border-white/10 p-6 shadow-xl">
-              <p className="text-sm text-white/70">Cliente Logística</p>
+              <p className="text-sm text-white/70">Objetivo Logística</p>
               <h3 className="text-lg font-semibold mt-2">“Menos quiebres, más servicio”</h3>
               <p className="text-sm text-white/80 mt-3">
                 “El modelo de demanda nos dio estabilidad y evitó roturas críticas.”
               </p>
             </div>
             <div className="w-96 shrink-0 rounded-2xl bg-white/10 border border-white/10 p-6 shadow-xl">
-              <p className="text-sm text-white/70">Cliente RRHH</p>
+              <p className="text-sm text-white/70">Objetivo RRHH</p>
               <h3 className="text-lg font-semibold mt-2">“Mejoramos la retención”</h3>
               <p className="text-sm text-white/80 mt-3">
                 “Identificamos equipos de riesgo y actuamos antes de perder talento.”
@@ -265,92 +295,43 @@ export default function Home() {
       <section className="py-20 bg-gradient-to-b from-white via-blue-50 to-white">
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-10">
-            <p className="text-sm uppercase tracking-[0.25em] text-blue-700/80">Demo real</p>
-            <h2 className="text-3xl md:text-4xl font-bold text-blue-800 mt-2">Explora nuestro trabajo</h2>
+            <p className="text-sm uppercase tracking-[0.25em] text-blue-700/80">Real time analytics</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-blue-800 mt-2">Tu negocio en la palma de tu mano</h2>
             <p className="text-blue-800/80 mt-3">
               Un vistazo a cómo transformamos datos en decisiones accionables.
             </p>
           </div>
           <div className="bg-white rounded-3xl shadow-2xl border border-blue-100 p-3 md:p-4">
-            <div className="relative overflow-hidden rounded-2xl ring-1 ring-blue-100" style={{ paddingBottom: "45.4163%" }}>
-              <iframe 
-                className="absolute top-0 left-0 w-full h-full" 
-                src="https://www.loom.com/embed/01ece08be3fb42179957b2c2f2460d4d?sid=ca013eb1-f6e9-4de1-a63b-8ac1761c7e0b"
-                frameBorder="0" 
-                allowFullScreen
-              ></iframe>
+            <div className="relative overflow-hidden rounded-2xl ring-1 ring-blue-100">
+              <img
+                src="/img/2.jpeg"
+                alt="Explora nuestro trabajo"
+                className="w-full h-auto object-cover"
+              />
             </div>
-          </div>
-          <div className="mt-6 flex flex-wrap items-center justify-center gap-3 text-blue-800/80">
-            <span className="px-3 py-1 rounded-full bg-blue-100/70 text-sm">Dashboard ejecutivo</span>
-            <span className="px-3 py-1 rounded-full bg-blue-100/70 text-sm">KPIs en tiempo real</span>
-            <span className="px-3 py-1 rounded-full bg-blue-100/70 text-sm">Insights accionables</span>
           </div>
         </div>
       </section>
       <div className="py-4 bg-gray-100"></div>
       {/* Testimonios */}
-      <section className="py-16 bg-white text-center">
-        <h2 className="text-3xl font-bold mb-8 text-blue-800">Lo que dicen nuestros clientes</h2>
-        <div className="max-w-6xl mx-auto">
-          <blockquote className="border-l-4 border-blue-900 pl-6 italic text-xl mb-8 text-blue-800">
-            Penthouse Visuals ha revolucionado la forma en que gestionamos datos, ahora puedo ver la información que me interesa de forma rápida y ordenada – Eurocell – 
-          </blockquote>
-        </div>
-      </section>
-      <div className="py-4 bg-gray-100"></div>
-      <section className="py-16 bg-white text-center">
-        <div className="max-w-4xl mx-auto px-4">
-          <div className="mb-10">
-          <h2 className="text-3xl font-bold text-blue-800">Nuestra misión</h2>
-          <br/>
-            <h2 className="text-xl text-blue-800 font-semibold">Empoderar a las empresas de nuestro país con soluciones analíticas que transformen sus decisiones.</h2>
-          </div>
-          <div className="flex justify-center items-center mb-4">
-            <img src="/img/hands.png" alt="Handshake" className="w-20 h-22"/>
-          </div>
-          <div>
-            <p className="text-xl text-blue-800 italic">- Somos un aliado estratégico para tus negocios -</p>
-          </div>
-        </div>
-      </section>
-      <div className="py-4 bg-gray-100"></div>
       {/* CTA Repetido */}
       <section id="cta" className="bg-dark-purple py-16 text-center ">
         <h2 className="text-3xl font-bold text-white">¿Listo para optimizar tu empresa?</h2>
-        <p  className="text-xl text-white mt-4">Solicita un análisis gratuito y descubre como podemos ayudarte a mejorar tu eficiencia.</p>
+        <p  className="text-xl text-white mt-4">Agenda una reunion y descubre como podemos mejorar tu eficiencia.</p>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdbUZkPthnKViwihqmyG8a9mt5PEy9nSs5Mr2ZfX5VFo5heNg/viewform?usp=sf_link" className="mt-8 inline-block bg-royal-blue text-white font-semibold py-3 px-6 rounded-lg hover:bg-blue-700 transition">
           Contáctanos
         </a>
       </section>
 
-      {/* Preguntas Frecuentes (opcional) */}
-      <section className="py-16 bg-gray-100 text-center">
-        <h2 className="text-3xl font-bold mb-8 text-blue-800">Preguntas Frecuentes</h2>
-        <div className="max-w-4xl mx-auto text-left">
-          <details className="mb-4">
-            <summary className="font-semibold text-lg text-blue-800">¿Cómo funciona el análisis gratuito?</summary>
-            <p  className="mt-2 text-blue-800">Nuestro equipo analiza los datos clave de tu empresa para ofrecerte un informe gratuito sobre áreas de mejora.</p>
-          </details>
-          <details className="mb-4">
-            <summary className="font-semibold text-lg text-blue-800">¿Cuánto tiempo tarda el análisis?</summary>
-            <p  className="mt-2 text-blue-800">Normalmente entregamos el informe en un plazo de 5 a 7 días hábiles.</p>
-          </details>
-          <details className="mb-4">
-            <summary className="font-semibold text-lg text-blue-800">¿Qué beneficios ofrece Penthouse?</summary>
-            <p  className="mt-2 text-blue-800">Ofrecemos análisis avanzados de datos, optimización de procesos y reportes claros para una mejor toma de decisiones.</p>
-          </details>
-        </div>
-      </section>
 
       {/* Footer */}
-      <footer id="contact" className="bg-dark-purple text-white py-8 text-center">
+       <footer id="contact" className="bg-white text-[#3B58E1] py-8 text-center">
         <p  className="text-lg">Contáctanos en: contacto@penthouseconsultings.com</p>
         <div className="flex justify-center mt-4">
           {/* <a href="#" className="mx-4 hover:text-yellow-500 transition">Instagram</a> */}
           <a href="https://www.linkedin.com/company/penthouse-consulting/" className="mx-4 hover:text-yellow-500 transition">LinkedIn</a>
         </div>
-        <p  className="mt-4 text-sm">&copy; 2024 Penthouse. Todos los derechos reservados.</p>
+        <p  className="mt-4 text-sm">&copy; 2026 Penthouse. Todos los derechos reservados.</p>
       </footer>
     </>
   );
