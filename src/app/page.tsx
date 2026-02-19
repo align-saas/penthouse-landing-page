@@ -304,7 +304,7 @@ precisión.</p>
           <div className="bg-white rounded-3xl shadow-2xl border border-blue-100 p-3 md:p-4">
             <div className="relative overflow-hidden rounded-2xl ring-1 ring-blue-100">
               <img
-                src="/img/2.jpeg"
+                src="/img/22.png"
                 alt="Explora nuestro trabajo"
                 className="w-full h-auto object-cover"
               />

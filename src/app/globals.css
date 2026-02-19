@@ -20,6 +20,32 @@ body {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
+.nav-relief {
+  transition:
+    color 220ms ease,
+    text-shadow 220ms ease,
+    transform 220ms ease;
+  text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.nav-relief:hover {
+  transform: translateY(-1px);
+  text-shadow:
+    0 -1px 0 rgba(255, 255, 255, 0.38),
+    0 1px 0 rgba(5, 8, 31, 0.92),
+    0 3px 8px rgba(5, 8, 31, 0.45);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nav-relief {
+    transition: none;
+  }
+
+  .nav-relief:hover {
+    transform: none;
+  }
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

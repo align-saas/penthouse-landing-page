@@ -38,23 +38,22 @@ export default function NosotrosPage() {
           <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="rounded-3xl bg-white shadow-lg border border-blue-100 p-6 text-left">
               <h2 className="text-xl font-semibold text-blue-800">Nuestra Historia</h2>
-              <p className="mt-3 text-blue-800/80">
+              <p className="mt-3 text-justify text-blue-800/80">
                 Nuestra firma nace de una convicción que compartimos desde la universidad: las organizaciones 
                 pueden tomar mejores decisiones cuando la tecnología, los datos y las personas trabajan en conjunto. 
               </p>
             </div>
             <div className="rounded-3xl bg-white shadow-lg border border-blue-100 p-6 text-left">
               <h2 className="text-xl font-semibold text-blue-800">Nuestra Misión</h2>
-              <p className="mt-3 text-blue-800/80">
+              <p className="mt-3 text-justify text-blue-800/80">
                 Empoderar a las empresas latinoamericanas a través de alianzas estratégicas que transformen sus decisiones y sus resultados.
               </p>
             </div>
             <div className="rounded-3xl bg-white shadow-lg border border-blue-100 p-6 text-left">
               <h2 className="text-xl font-semibold text-blue-800">Nuestro Equipo</h2>
-              <p className="mt-3 text-blue-800/80">
+              <p className="mt-3 text-justify text-blue-800/80">
               Somos un equipo de profesionales que se complementa a la perfección. 
-              Combinamos perfiles analíticos, tecnológicos y estratégicos, trabajando 
-              de forma coordinada para convertir información compleja en decisiones claras.
+              Combinamos perfiles analíticos, tecnológicos y estratégicos, lo que genera un impacto real.
               </p>
             </div>
           </div>
