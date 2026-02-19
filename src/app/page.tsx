@@ -1,4 +1,13 @@
 import Head from 'next/head';
+
+const partnerLogos = [
+  { name: "Euro", src: "/img/clients/euro_washed.png" },
+  { name: "Eco", src: "/img/clients/eco_washed.png" },
+  { name: "Sporta", src: "/img/clients/SPORTA_washed.png" },
+  { name: "Palma", src: "/img/clients/palma_washed.png" },
+  { name: "Transp", src: "/img/clients/transp_washed.png" },
+];
+
 export default function Home() {
   return (
     <>
@@ -70,6 +79,36 @@ precisión.</p>
                   <img src="/img/1.jpeg" alt="Penthouse Metrics" className="w-full h-full object-contain rounded-[48px] rotate-[6deg]" />
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      {/* Empresas */}
+      <section className="bg-[#131028] py-16 md:py-20">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="text-center">
+            <p className="text-xs md:text-sm uppercase tracking-[0.28em] text-white/65">
+              Empresas
+            </p>
+            <h2 className="mt-4 text-3xl md:text-4xl font-bold text-white">
+              Empresas que han confiado en nosotros
+            </h2>
+            <p className="mt-3 text-sm md:text-base text-white/75">
+              Logos temporales de referencia. Puedes reemplazarlos cuando quieras.
+            </p>
+          </div>
+          <div className="mt-10 grid grid-cols-2 md:grid-cols-5 gap-4 md:gap-5">
+            {partnerLogos.map((logo) => (
+              <article
+                key={logo.name}
+                className="min-h-[110px] rounded-2xl border border-white/15 bg-white/[0.04] p-5 md:p-6 flex items-center justify-center shadow-[0_18px_36px_-26px_rgba(0,0,0,0.8)] transition duration-300 hover:bg-white/[0.09] hover:-translate-y-1"
+              >
+                <img
+                  src={logo.src}
+                  alt={logo.name}
+                  className="h-8 md:h-10 w-auto object-contain opacity-90 hover:opacity-100 transition-opacity"
+                />
+              </article>
+            ))}
           </div>
         </div>
       </section>
