@@ -23,12 +23,12 @@ export default function Home() {
         <p className="text-xl mt-4">Minimizamos costos, maximizamos ventas, satisfacción y
 precisión.</p>
         <div className="text-center mt-8">
-        <a href="https://docs.google.com/forms/d/1Z3BTMqA9k0zjc5kjqLkcucAt7H3W_6AzcxqAbvl7S7I/edit" className="inline-block bg-dark-purple text-white font-semibold py-3 px-6 rounded-lg mr-4 hover:bg-teal-600 transition">
+        <a href="https://forms.penthouseconsultings.com/" className="inline-block bg-dark-purple text-white font-semibold py-3 px-6 rounded-lg mr-4 hover:bg-teal-600 transition">
             Conversemos →
         </a>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdbUZkPthnKViwihqmyG8a9mt5PEy9nSs5Mr2ZfX5VFo5heNg/viewform?usp=sf_link" className="inline-block bg-alice-blue text-black font-semibold py-3 px-6 rounded-lg hover:bg-teal-800 transition">
+        {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLSdbUZkPthnKViwihqmyG8a9mt5PEy9nSs5Mr2ZfX5VFo5heNg/viewform?usp=sf_link" className="inline-block bg-alice-blue text-black font-semibold py-3 px-6 rounded-lg hover:bg-teal-800 transition">
             Contáctanos →
-        </a>
+        </a> */}
 </div>
       </header>
 
@@ -351,7 +351,7 @@ precisión.</p>
       <section id="cta" className="bg-dark-purple py-16 text-center ">
         <h2 className="text-3xl font-bold text-white">¿Listo para optimizar tu empresa?</h2>
         <p  className="text-xl text-white mt-4">Agenda una reunion y descubre como podemos mejorar tu eficiencia.</p>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdbUZkPthnKViwihqmyG8a9mt5PEy9nSs5Mr2ZfX5VFo5heNg/viewform?usp=sf_link" className="mt-8 inline-block bg-royal-blue text-white font-semibold py-3 px-6 rounded-lg hover:bg-blue-700 transition">
+        <a href="https://forms.penthouseconsultings.com/" className="mt-8 inline-block bg-royal-blue text-white font-semibold py-3 px-6 rounded-lg hover:bg-blue-700 transition">
           Contáctanos
         </a>
       </section>
